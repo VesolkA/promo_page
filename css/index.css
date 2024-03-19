@@ -263,7 +263,7 @@ iframe {
     white-space: nowrap;
 }
 
-.trailers__button-active {
+.trailers__button_active {
     background-color: #ff3d00;
 }
 
@@ -273,6 +273,7 @@ iframe {
 }
 
 .trailers__wrapper {
+    display: none;
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
@@ -307,7 +308,7 @@ iframe {
 }
 
 .footer__developer:first-child {
-    margin-bottom: 7px;
+    margin-bottom: 8px;
 }
 
 .footer__link:hover {
@@ -466,6 +467,9 @@ iframe {
     .footer__developers {
         font-size: 12px;
     }
+    .footer__copyright {
+        font-size: 12px;
+    }
 
     .footer__logo {
         width: 217px;
@@ -572,7 +576,6 @@ iframe {
 
     .footer__logo {
         justify-self: start;
-        align-self: end;
     }
 
 }
